@@ -7,7 +7,8 @@ const url = {
     },
     PRODUCT:{
         LIST: "/product",
-        DETAIL:"/product/get-by-id"
+        DETAIL:"/product/get-by-id",
+        RELATEDS:"/product/relateds"
     }
 }
 export default url;
