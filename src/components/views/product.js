@@ -1,10 +1,6 @@
 import { NavLink } from "react-router-dom";
 function Product(props){ // properties
     const product = props.product;
-    const [count,setCount] = useState(0);
-    const add = () => { // arrow function
-        setCount(count+1);
-    }
     return (
         <div className="product__item">
             <div className="product__item__pic set-bg">
