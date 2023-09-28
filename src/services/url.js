@@ -4,6 +4,10 @@ const url = {
         LIST: "/category",
         CREATE: "/category",
         DETAIL: "/category/get-by-id"
+    },
+    PRODUCT:{
+        LIST: "/product",
+        DETAIL:"/product/get-by-id"
     }
 }
 export default url;
